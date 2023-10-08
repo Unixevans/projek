@@ -1,0 +1,306 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: inline;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a6b;
+    backdrop-filter: blur(10px);
+}
+
+nav .brand {
+    width: 20%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+nav .brand .brand-txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F46208;
+}
+
+
+nav .navigation {
+    width: 60%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    list-style-type: none;
+    /* border: 1px solid red; */
+}
+
+nav .navigation li a{
+    height: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 19px;
+    color: whitesmoke;
+    /* border: 1px solid black; */
+}
+
+nav .navigation li a:hover {
+    color: #F46208;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    width: 100%;
+    height: 90vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    /* border: 1px solid black; */
+}
+
+.home article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* padding-left: 20px; */
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+article .welcome {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #F46208;
+    display: flex;
+    flex-direction: column;
+}
+
+article .welcome .nama {
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+article .motto {
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    color: rgba(245, 245, 245, 0.486);
+    font-weight: 500;
+}
+
+article .motto .bright {
+    color: whitesmoke;
+}
+
+article .informan {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgba(245, 245, 245, 0.548);
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+article .informan .bold {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+article .hire-me {
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F46208;
+}
+
+.hire-me {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0f172a;
+}
+
+
+
+.home aside {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+
+.home aside .profile-img {
+    width: 90%;
+
+}
+
+.about-me {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E293B;
+    /* border: 1px solid black; */
+}
+
+.about-me article {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me article .about {
+    width: 100%;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #F46208;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-me article .biodata {
+    width: 85%;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.about-me article .motivation {
+    width: 85%;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.highlight {
+    color: #F46208;
+}
+
+.sosial-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.sosial-link li {
+    font-size: 35px;
+    margin: 15px;
+}
+
+
+.portofolio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    border: 1px solid white;
+}
+
+.portofolio article {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.portofolio article .title {
+    width: 100%;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #F46208;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.portofolio article .descript {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #F46208;
+    text-align: center;
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .kartu {
+
+}
+
+
+footer {
+    height: 100vh;
+}
+
+
